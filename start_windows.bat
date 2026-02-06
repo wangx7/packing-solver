@@ -6,7 +6,7 @@ echo ================================================
 echo.
 
 :: 检查 Python 是否安装
-python --version >nul 2>&1
+python --version
 if errorlevel 1 (
     echo [错误] 未检测到 Python！
     echo.
